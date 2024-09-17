@@ -37,8 +37,7 @@ Swal.fire({
     icon: 'success',
     confirmButtonText: 'OK',
 }).then(function(){
-    alert("here")
-    window.location.href="/userprofile/userprofile.html"
+    window.location.href="userprofile/userprofile.html"
 
 
 }),
@@ -46,7 +45,7 @@ Swal.fire({
 event.preventDefault(),
 
 )
-
+0
 
 })
 
