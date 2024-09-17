@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    /* header section */
+    body{
+        background-image: url(/project-api/signup/image-signup/تصميم\ بدون\ عنوان\(2\).svg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+
+.navbar{
+    background-color: rgba(23, 97, 207, 0.5)!important;
+}
+.navbar img{
+    filter: brightness(0)invert(1);
+}
+.navbar a{
+    filter: brightness(0)invert(1);
+    font-size: 30px !important;
+    color:rgb(0, 24, 110) !important
+}
+    /* header section end */
+    /* main */
+    .card h3{
+    background-color: #253799;
+    border-color: #253799;
+    
+     
+    }
+
+    
+    .card h3{
+color: white;        
+    }    
+    
+  
+    input{
+        border-radius: 0.2rem;
+        
+    }
+
+    .card{
+
+        left: 0;
+        text-align: center;
+        color:#253799;
+        box-shadow: #72a1fe 10px 10px 10px;
+    }
+    main {
+        display: flex !important;
+        justify-content: center !important;
+        
+    }
+    .btn-shape{
+        background-color: #253799 !important;
+    color: white;
+            border-radius: 24px !important;
+            box-shadow: #72a1fe 10px 10px 10px;
+                        padding: 1rem 3rem 1rem 3rem !important;
+
+    
+    }
+
+    /* end
+     main */
+     /* .footer-bg{
+        background-color: rgb(170, 240, 228) ;
+        width: 100%;
+        text-align: center;
+        position: fixed;  
+        bottom: 0;  
+        z-index: 100;  
+    } */
