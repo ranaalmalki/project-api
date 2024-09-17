@@ -38,7 +38,7 @@ Swal.fire({
     confirmButtonText: 'OK',
 }).then(function(){
     alert("here")
-    window.location.href="userprofile.html"
+    window.location.href="/userprofile/userprofile.html"
 
 
 }),
@@ -49,6 +49,9 @@ event.preventDefault(),
 
 
 })
+
+
+
 
 
 
