@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artical</title>
-    <link rel="stylesheet" href="/project-api/artical/artical.css">
+    <link rel="stylesheet" href="/project-api/Artical-managment/articalManagment.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -41,21 +41,46 @@
             </nav>
         </header>
         <h1 class="text-center">Artical</h1>
-        <main class="container">
-
+        <main class="container-fluid">
+<div class="container">
             <div class="card m-5 w-100 shadwo rounded ">
                 <div class="card-body d-flex">
                     <div>
                 <h4 class="title-artical card-title col" id="title-artical">dfghjkl;'</h4>
                 <p class="paragraph-artical card-text" id="paragraph-artical">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit non nostrum necessitatibus atque provident iste minima ab soluta sint? Nemo, iste minima omnis ipsa nulla asperiores illo aliquam laudantium!</p>
             </div>
-            <div class="">
 
-            </div>
+           
                 <img  class="card-image" width="50%" id="image-artical"
                 src="/project-api/signup/image-signup/vecteezy_isometric-style-illustration-of-login-to-website_6552114.jpg">
             </div>
             </div>
+        </div>
+        <div class="card">
+            <h3>New Artical</h3>
+            <form class="col" id="formid">
+                <div class="col row form-group ">
+                    <label for="new-tite-atical">Title</label>
+                    <input type="text" class="form-control" id="title-artical-input" placeholder="title" minlength="5"
+                        required>
+                </div>
+                <div class="col row">
+                    <label for="content-input">content</label>
+                    <textarea id="content-input" class="form-control"  required></textarea>
+
+                </div>
+                <div class="col row">
+                    <label for="uploud-image">uploud image</label>
+                    <input type="text" id="uploud-image" class="form-control" placeholder="uploude" required>
+                </div>
+                
+                <br>
+                <div class="p-3">
+                    <button class="btn  btn-shape " type="submit" id="submit-signup">Add Artical</button>
+                </div>
+            </form>
+            </div>
+         
         </main>
        
     
@@ -64,8 +89,7 @@
     <!-- <footer class=" footer-bg p-2 container ">
         <p>@2024</p>
     </footer> -->
-    <script src="/project-api/artical/artical.js"></script>
-    <script src="/project-api/userprofile/userprofile.js"></script>
+    <script src="/project-api/Artical-managment/articalmanagment.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
