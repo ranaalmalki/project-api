@@ -6,7 +6,7 @@
     }
     /* header section */
     body{
-        background-image: url(/project-api/image-homepage/vecteezy_minimalist-blue-wavy-with-halftone-background-gradient_13894759.jpg) ;
+        background-image: url(/project-api/image-homepage/—Pngtree—modern\ simple\ elegant\ dark\ blue_1454711.png) ;
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -71,3 +71,7 @@
 
     }
         
+    .custom-toggler.navbar-toggler {
+        border-color:#253799;
+    }
+    

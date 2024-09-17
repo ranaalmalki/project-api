@@ -66,6 +66,14 @@ color: white;
     
     }
 
+    .custom-toggler.navbar-toggler {
+        border-color:#253799;
+    }
+    
+    .custom-toggler .navbar-toggler-icon {
+
+        }
+  
     /* end
      main */
      /* .footer-bg{
